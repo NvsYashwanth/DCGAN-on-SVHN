@@ -16,7 +16,7 @@ THIS README WILL WALK YOU THROUGH THE PROJECT. PLEASE READ IT ONCE TO GET AN IDE
 * Our batch size is 128, so instead of plotting all 128 images of a batch, we only plot 20 in this case.
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/DCGAN-on-SVHN/blob/master/assets/train%20img.png">
 </p>
 
 ## Scaling images
@@ -44,14 +44,14 @@ THIS README WILL WALK YOU THROUGH THE PROJECT. PLEASE READ IT ONCE TO GET AN IDE
 * We used BCEwithLogitsLoss(), which combines a sigmoid activation function (we want the discriminator to output a value 0–1 indicating whether an image is real or fake) and binary cross-entropy loss.
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/DCGAN-on-SVHN/blob/master/assets/bce.png">
 </p>
 
 ## Training phase & Loss curves
 * We will define a function for training our model. The parameters would be the Discriminator, Generator, epoch number.
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/DCGAN-on-SVHN/blob/master/assets/losses.png">
 </p>
 
 ## Sample generation
@@ -59,7 +59,7 @@ THIS README WILL WALK YOU THROUGH THE PROJECT. PLEASE READ IT ONCE TO GET AN IDE
 * And finally, we have our generated faces below. 👀
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/DCGAN-on-SVHN/blob/master/assets/gen%20img.png">
 </p>
 
 ***I HAVE INCLUDED THE .pkl FILE. SO YOU CAN GENERATE THE IMAGES TO SEE HOW IT PERFORMS.****
